@@ -1,0 +1,50 @@
+VendingMachineCLI
+
+At Startup
+	
+	VendingMachineCLI
+		Constructor
+		call VendingMachine CREATELIST OF ITEMS class (interface/abstract class)
+			reads from input file that is pipe delimited and store each object in a class with a TYPE interface?
+			list property of each item in each thing
+		
+	Main Menu
+		1. display vm items
+			a display items
+				reads from each item in CREATELIST OF ITEMS 
+			b 5 of product
+			c if its sold out
+		2. purchase
+			a 1 feed money
+				FEED MONEY CLASS in vendingMaching
+					can REPEATEDLY enter 1 2 5 $10
+					update WRITE TO LOG class
+					
+			b 2 select product
+				SELECT/DISPENSE PRODUCT CLASS in vm
+					if doesnt exits or sold out, inform & return to purchase menue
+					dispense
+					update balance
+					update WRITE TO LOG class
+						
+			
+			c 3 finish transaction
+				FINISH XACTION CLASS in vm	
+					retun money in q d n 
+					vm current balance will be 0
+					display crunch crunch/munch munch etc (return a string depending on what type of product bought)
+					updates amount of each item purchased
+					update WRITE TO LOG class
+					
+			d "current money provided: $2"
+	
+	
+			Call a WRITE TO LOG class in vm
+				each purchase/feed money/finish xaction will append a file called Log.txt
+				01/01/2016 12:00:00 PM FEED MONEY: $5.00 $5.00
+				01/01/2016 12:00:15 PM FEED MONEY: $5.00 $10.00
+				01/01/2016 12:00:20 PM Crunchie B4 $10.00 $8.5
+				01/01/2016 12:01:35 PM GIVE CHANGE: $7.50 $0.00
+				
+			SALES REPORT
+				will do last...

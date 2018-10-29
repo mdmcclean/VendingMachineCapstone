@@ -1,0 +1,6 @@
+C:\workspace\team\week-4-pair-exercises-team-2\c#-capstone\VendingMachine\bin\Debug\VendingMachine.dll
+C:\workspace\team\week-4-pair-exercises-team-2\c#-capstone\VendingMachine\bin\Debug\VendingMachine.pdb
+C:\workspace\team\week-4-pair-exercises-team-2\c#-capstone\VendingMachine\obj\Debug\VendingMachine.csproj.CoreCompileInputs.cache
+C:\workspace\team\week-4-pair-exercises-team-2\c#-capstone\VendingMachine\obj\Debug\VendingMachine.dll
+C:\workspace\team\week-4-pair-exercises-team-2\c#-capstone\VendingMachine\obj\Debug\VendingMachine.pdb
+C:\workspace\team\week-4-pair-exercises-team-2\c#-capstone\VendingMachine\obj\Debug\VendingMachine.csprojAssemblyReference.cache
